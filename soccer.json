@@ -1,0 +1,83 @@
+{
+    "teams": [
+      {
+        "name": "Flamengo",
+        "state": "Rio de Janeiro",
+        "members": [
+          "Gabigol",
+          "Arrascaeta",
+          "Bruno Henrique",
+          "Diego Ribas",
+          "Everton Ribeiro"
+        ]
+      },
+      {
+        "name": "São Paulo",
+        "state": "São Paulo",
+        "members": [
+          "Calleri",
+          "Patrick",
+          "Igor Gomes",
+          "Luan",
+          "Reinaldo"
+        ]
+      },
+      {
+        "name": "Palmeiras",
+        "state": "São Paulo",
+        "members": [
+          "Dudu",
+          "Rony",
+          "Weverton",
+          "Gustavo Gómez",
+          "Scarpa"
+        ]
+      }
+    ],
+    "leagues": [
+      {
+        "name": "Brasileirão Série A",
+        "year": 2025,
+        "teams": [
+          "Flamengo",
+          "São Paulo",
+          "Palmeiras",
+          "Grêmio",
+          "Atlético Mineiro",
+          "Internacional"
+        ]
+      },
+      {
+        "name": "Copa do Brasil",
+        "year": 2025,
+        "teams": [
+          "Flamengo",
+          "Vasco",
+          "Corinthians",
+          "Athletico Paranaense",
+          "São Paulo"
+        ]
+      }
+    ],
+    "players": [
+      {
+        "name": "Gabigol",
+        "team": "Flamengo",
+        "position": "Forward",
+        "nationality": "Brazilian"
+      },
+      {
+        "name": "Rony",
+        "team": "Palmeiras",
+        "position": "Forward",
+        "nationality": "Brazilian"
+      },
+      {
+        "name": "Calleri",
+        "team": "São Paulo",
+        "position": "Forward",
+        "nationality": "Argentinian"
+      }
+    ]
+  }
+  
