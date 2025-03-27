@@ -1,16 +1,17 @@
 
-var spaceData;
+var weather;
 
 
 function setup() {
     createCanvas(400, 400)
     background(0);
 
-    loadJSON("http://api.open-notify.org/astros.json", gotData, 'jsonp')
+    loadJSON("https://api.openweathermap.org/data/2.5/weather?q=London&appid=ec56eced1bd6354b833ca2af443d7269", gotData, 'jsonp')
 }
 
 function gotData(data) {
-    spaceData = data;
+    weather = data.wind;
+    console.log(data)
  }
 
  function draw () {
@@ -19,8 +20,8 @@ function gotData(data) {
 
     randomSeed(3); // Ensures consistent random values
 
-    if (spaceData) {
-        for (var i = 0; i < spaceData.number; i++)
+    if (gotData) {
+        for (var i = 0; i < weather.deg; i++)
         ellipse(random(width), random(height), 10, 10)
     }
 
